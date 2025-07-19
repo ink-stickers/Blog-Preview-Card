@@ -1,0 +1,73 @@
+html{
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: min-content;
+}
+
+.header-image{
+    border-radius: 1rem;
+}
+
+h3{
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    width:fit-content;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+.publish-date{
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+.description{
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.author-info{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.avatar{
+    width: 2.5rem;
+    height: auto;
+}
+
+.name{
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-left: 0.5rem;
+}
